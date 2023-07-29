@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-SpeedReader/Pods-SpeedReader-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework
+${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework
+${BUILT_PRODUCTS_DIR}/ZIPFoundation/ZIPFoundation.framework

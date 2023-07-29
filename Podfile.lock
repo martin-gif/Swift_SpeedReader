@@ -1,0 +1,24 @@
+PODS:
+  - Kanna (5.2.7)
+  - SwiftSoup (2.5.3)
+  - ZIPFoundation (0.9.16)
+
+DEPENDENCIES:
+  - Kanna (~> 5.2.2)
+  - SwiftSoup
+  - ZIPFoundation (~> 0.9)
+
+SPEC REPOS:
+  trunk:
+    - Kanna
+    - SwiftSoup
+    - ZIPFoundation
+
+SPEC CHECKSUMS:
+  Kanna: 01cfbddc127f5ff0963692f285fcbc8a9d62d234
+  SwiftSoup: 33e8d374021a6c332788f78fa29a93227d8a7699
+  ZIPFoundation: d170fa8e270b2a32bef9dcdcabff5b8f1a5deced
+
+PODFILE CHECKSUM: 9d1ddfd820c55a938c77099e7a28d78cd2db0533
+
+COCOAPODS: 1.12.0

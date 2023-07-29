@@ -1,0 +1,1009 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17087D3E29CAEE2F00150E51 /* SpritzWordViewMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17087D3D29CAEE2F00150E51 /* SpritzWordViewMac.swift */; };
+		17497C3429F577AE00B79A45 /* onboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17497C3329F577AE00B79A45 /* onboardingPage.swift */; };
+		17497C3629F580E800B79A45 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17497C3529F580E800B79A45 /* OnboardingView.swift */; };
+		17497C3829F5898800B79A45 /* OnboardingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17497C3729F5898800B79A45 /* OnboardingSheet.swift */; };
+		17497C3D29F58B2600B79A45 /* welcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17497C3C29F58B2600B79A45 /* welcomeView.swift */; };
+		17497C3F29F58B3F00B79A45 /* locationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17497C3E29F58B3F00B79A45 /* locationView.swift */; };
+		1753D9CB29F6E91B00A7504E /* FileManagerSingelton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753D9CA29F6E91B00A7504E /* FileManagerSingelton.swift */; };
+		1753D9D229F9B2A700A7504E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753D9D129F9B2A700A7504E /* SettingsView.swift */; };
+		1753D9D529F9B46400A7504E /* GeneralSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753D9D429F9B46400A7504E /* GeneralSettingsView.swift */; };
+		1753D9D729F9B4D900A7504E /* LocationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753D9D629F9B4D900A7504E /* LocationSettingsView.swift */; };
+		177C6D762A1223F200EA97B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177C6D752A1223F200EA97B7 /* Assets.xcassets */; };
+		177C6D782A127EAC00EA97B7 /* Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177C6D772A127EAC00EA97B7 /* Toolbar.swift */; };
+		177C6D7B2A12944B00EA97B7 /* ViewSpritz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177C6D7A2A12944B00EA97B7 /* ViewSpritz.swift */; };
+		177C6D7D2A12963E00EA97B7 /* ViewBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177C6D7C2A12963E00EA97B7 /* ViewBook.swift */; };
+		177C6D7F2A12C3B100EA97B7 /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177C6D7E2A12C3B100EA97B7 /* Chapter.swift */; };
+		1783F84429D2E30700AD8EA5 /* EPUBParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1783F84329D2E30700AD8EA5 /* EPUBParser.swift */; };
+		1787BD1C29F43CE400964D00 /* SpritzTimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1787BD1B29F43CE400964D00 /* SpritzTimeManager.swift */; };
+		178F511829CC78EF0074C126 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 178F511729CC78EF0074C126 /* Realm */; };
+		178F511A29CC78EF0074C126 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 178F511929CC78EF0074C126 /* RealmSwift */; };
+		178F511C29CC8D170074C126 /* colorComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178F511B29CC8D170074C126 /* colorComponent.swift */; };
+		17A725A829AA9CD2000FFED2 /* SpeedReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A725A729AA9CD2000FFED2 /* SpeedReaderApp.swift */; };
+		17A725AA29AA9CD2000FFED2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A725A929AA9CD2000FFED2 /* ContentView.swift */; };
+		17A725BA29AA9CD5000FFED2 /* SpeedReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A725B929AA9CD5000FFED2 /* SpeedReaderTests.swift */; };
+		17A725C429AA9CD5000FFED2 /* SpeedReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A725C329AA9CD5000FFED2 /* SpeedReaderUITests.swift */; };
+		17A725C629AA9CD5000FFED2 /* SpeedReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A725C529AA9CD5000FFED2 /* SpeedReaderUITestsLaunchTests.swift */; };
+		17BA9E2729D2F0000086C49E /* EPUBBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BA9E2629D2F0000086C49E /* EPUBBook.swift */; };
+		17BA9E2929D2F0380086C49E /* ContainerDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BA9E2829D2F0380086C49E /* ContainerDocument.swift */; };
+		17BA9E2B29D2F34E0086C49E /* OPFDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BA9E2A29D2F34E0086C49E /* OPFDocument.swift */; };
+		17BA9E2D29D2F38A0086C49E /* OPFMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BA9E2C29D2F38A0086C49E /* OPFMetadata.swift */; };
+		17BA9E2F29D2F3DE0086C49E /* OPFManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BA9E2E29D2F3DE0086C49E /* OPFManifest.swift */; };
+		17BA9E3129D3183A0086C49E /* OPFSpine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BA9E3029D3183A0086C49E /* OPFSpine.swift */; };
+		17BA9E3429D319C00086C49E /* XPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BA9E3329D319C00086C49E /* XPath.swift */; };
+		17BFF69729CB352100438983 /* NavigationBarLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BFF69629CB352100438983 /* NavigationBarLeft.swift */; };
+		17BFF69A29CB4A5800438983 /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17BFF69829CB4A5800438983 /* Bookworm.xcdatamodeld */; };
+		17BFF69C29CB4C1100438983 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BFF69B29CB4C1100438983 /* DataController.swift */; };
+		17C8E3CA29D425440094FDE6 /* EPUBTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C8E3C929D425440094FDE6 /* EPUBTest.swift */; };
+		17C8E3CC29D42F340094FDE6 /* Sample eBooks in Resources */ = {isa = PBXBuildFile; fileRef = 17C8E3CB29D42F340094FDE6 /* Sample eBooks */; };
+		17C8E3CD29D42F340094FDE6 /* Sample eBooks in Resources */ = {isa = PBXBuildFile; fileRef = 17C8E3CB29D42F340094FDE6 /* Sample eBooks */; };
+		17C8E3D129D5C77A0094FDE6 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C8E3D029D5C77A0094FDE6 /* Resource.swift */; };
+		17C8E3D329D5C9320094FDE6 /* singleResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C8E3D229D5C9320094FDE6 /* singleResources.swift */; };
+		17CE7A7929C83C43003DF6F8 /* Spritz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CE7A7829C83C43003DF6F8 /* Spritz.swift */; };
+		17CE7A7B29C8418B003DF6F8 /* SpritzWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CE7A7A29C8418B003DF6F8 /* SpritzWord.swift */; };
+		17CE7A7D29C84A60003DF6F8 /* SpritzTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CE7A7C29C84A60003DF6F8 /* SpritzTimer.swift */; };
+		17F713E429E16BDA001F01E6 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F713E329E16BDA001F01E6 /* Parser.swift */; };
+		17F713E829E1E13F001F01E6 /* commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F713E729E1E13F001F01E6 /* commands.swift */; };
+		17FA14A029BA42B900A41A08 /* CollectionViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FA149F29BA42B900A41A08 /* CollectionViewer.swift */; };
+		17FA14A229BB52F700A41A08 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FA14A129BB52F700A41A08 /* Book.swift */; };
+		17FA14A429BB543900A41A08 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FA14A329BB543900A41A08 /* BookCell.swift */; };
+		17FA14E929BD26FE00A41A08 /* BookDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FA14E829BD26FE00A41A08 /* BookDetail.swift */; };
+		2644F83CAFEB3B09B1C8DD5C /* Pods_SpeedReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 610B25981A1474FE0E097014 /* Pods_SpeedReader.framework */; };
+		3C0AE20C66A788AF8A03B4D7 /* Pods_SpeedReaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B733B0086A589B25BA5A40F3 /* Pods_SpeedReaderTests.framework */; };
+		AEC5C003AFA1D7B63E6ED737 /* Pods_SpeedReader_SpeedReaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D63D121BB067185B5C8E244 /* Pods_SpeedReader_SpeedReaderUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17A725B629AA9CD5000FFED2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17A7259C29AA9CD2000FFED2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17A725A329AA9CD2000FFED2;
+			remoteInfo = SpeedReader;
+		};
+		17A725C029AA9CD5000FFED2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17A7259C29AA9CD2000FFED2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17A725A329AA9CD2000FFED2;
+			remoteInfo = SpeedReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0297E34CC713E65DCD604180 /* Pods-SpeedReader-SpeedReaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedReader-SpeedReaderUITests.debug.xcconfig"; path = "Target Support Files/Pods-SpeedReader-SpeedReaderUITests/Pods-SpeedReader-SpeedReaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		17087D3D29CAEE2F00150E51 /* SpritzWordViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpritzWordViewMac.swift; sourceTree = "<group>"; };
+		17497C3329F577AE00B79A45 /* onboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingPage.swift; sourceTree = "<group>"; };
+		17497C3529F580E800B79A45 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		17497C3729F5898800B79A45 /* OnboardingSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSheet.swift; sourceTree = "<group>"; };
+		17497C3C29F58B2600B79A45 /* welcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomeView.swift; sourceTree = "<group>"; };
+		17497C3E29F58B3F00B79A45 /* locationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationView.swift; sourceTree = "<group>"; };
+		1753D9CA29F6E91B00A7504E /* FileManagerSingelton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManagerSingelton.swift; sourceTree = "<group>"; };
+		1753D9D129F9B2A700A7504E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1753D9D429F9B46400A7504E /* GeneralSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralSettingsView.swift; sourceTree = "<group>"; };
+		1753D9D629F9B4D900A7504E /* LocationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSettingsView.swift; sourceTree = "<group>"; };
+		177C6D752A1223F200EA97B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		177C6D772A127EAC00EA97B7 /* Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar.swift; sourceTree = "<group>"; };
+		177C6D7A2A12944B00EA97B7 /* ViewSpritz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSpritz.swift; sourceTree = "<group>"; };
+		177C6D7C2A12963E00EA97B7 /* ViewBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBook.swift; sourceTree = "<group>"; };
+		177C6D7E2A12C3B100EA97B7 /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
+		1783F84329D2E30700AD8EA5 /* EPUBParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPUBParser.swift; sourceTree = SOURCE_ROOT; };
+		1787BD1B29F43CE400964D00 /* SpritzTimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpritzTimeManager.swift; sourceTree = "<group>"; };
+		178F511B29CC8D170074C126 /* colorComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorComponent.swift; sourceTree = "<group>"; };
+		17A725A429AA9CD2000FFED2 /* SpeedReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17A725A729AA9CD2000FFED2 /* SpeedReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedReaderApp.swift; sourceTree = "<group>"; };
+		17A725A929AA9CD2000FFED2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 14; };
+		17A725B029AA9CD5000FFED2 /* SpeedReader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpeedReader.entitlements; sourceTree = "<group>"; };
+		17A725B529AA9CD5000FFED2 /* SpeedReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17A725B929AA9CD5000FFED2 /* SpeedReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedReaderTests.swift; sourceTree = "<group>"; };
+		17A725BF29AA9CD5000FFED2 /* SpeedReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17A725C329AA9CD5000FFED2 /* SpeedReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedReaderUITests.swift; sourceTree = "<group>"; };
+		17A725C529AA9CD5000FFED2 /* SpeedReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17BA9E2629D2F0000086C49E /* EPUBBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPUBBook.swift; sourceTree = "<group>"; };
+		17BA9E2829D2F0380086C49E /* ContainerDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerDocument.swift; sourceTree = "<group>"; };
+		17BA9E2A29D2F34E0086C49E /* OPFDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OPFDocument.swift; sourceTree = "<group>"; };
+		17BA9E2C29D2F38A0086C49E /* OPFMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OPFMetadata.swift; sourceTree = "<group>"; };
+		17BA9E2E29D2F3DE0086C49E /* OPFManifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OPFManifest.swift; sourceTree = "<group>"; };
+		17BA9E3029D3183A0086C49E /* OPFSpine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OPFSpine.swift; sourceTree = "<group>"; };
+		17BA9E3329D319C00086C49E /* XPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XPath.swift; sourceTree = "<group>"; };
+		17BFF69629CB352100438983 /* NavigationBarLeft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarLeft.swift; sourceTree = "<group>"; };
+		17BFF69929CB4A5800438983 /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
+		17BFF69B29CB4C1100438983 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		17C8E3C929D425440094FDE6 /* EPUBTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPUBTest.swift; sourceTree = "<group>"; };
+		17C8E3CB29D42F340094FDE6 /* Sample eBooks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Sample eBooks"; sourceTree = "<group>"; };
+		17C8E3D029D5C77A0094FDE6 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		17C8E3D229D5C9320094FDE6 /* singleResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleResources.swift; sourceTree = "<group>"; };
+		17CE7A7829C83C43003DF6F8 /* Spritz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spritz.swift; sourceTree = "<group>"; };
+		17CE7A7A29C8418B003DF6F8 /* SpritzWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpritzWord.swift; sourceTree = "<group>"; };
+		17CE7A7C29C84A60003DF6F8 /* SpritzTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpritzTimer.swift; sourceTree = "<group>"; };
+		17F713E329E16BDA001F01E6 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		17F713E729E1E13F001F01E6 /* commands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commands.swift; sourceTree = "<group>"; };
+		17FA149F29BA42B900A41A08 /* CollectionViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewer.swift; sourceTree = "<group>"; };
+		17FA14A129BB52F700A41A08 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		17FA14A329BB543900A41A08 /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		17FA14E829BD26FE00A41A08 /* BookDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetail.swift; sourceTree = "<group>"; };
+		57807746B741303D9B112991 /* Pods-SpeedReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedReaderTests.release.xcconfig"; path = "Target Support Files/Pods-SpeedReaderTests/Pods-SpeedReaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		610B25981A1474FE0E097014 /* Pods_SpeedReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeedReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D63D121BB067185B5C8E244 /* Pods_SpeedReader_SpeedReaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeedReader_SpeedReaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEF881C66826EFEAEF44F08 /* Pods-SpeedReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedReaderTests.debug.xcconfig"; path = "Target Support Files/Pods-SpeedReaderTests/Pods-SpeedReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B733B0086A589B25BA5A40F3 /* Pods_SpeedReaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeedReaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E561EA974D7AA286712044F1 /* Pods-SpeedReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedReader.release.xcconfig"; path = "Target Support Files/Pods-SpeedReader/Pods-SpeedReader.release.xcconfig"; sourceTree = "<group>"; };
+		F4C3846C27F814E4C0E0B2EF /* Pods-SpeedReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedReader.debug.xcconfig"; path = "Target Support Files/Pods-SpeedReader/Pods-SpeedReader.debug.xcconfig"; sourceTree = "<group>"; };
+		F94848AFBE0DBAA63EBEAABF /* Pods-SpeedReader-SpeedReaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedReader-SpeedReaderUITests.release.xcconfig"; path = "Target Support Files/Pods-SpeedReader-SpeedReaderUITests/Pods-SpeedReader-SpeedReaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17A725A129AA9CD2000FFED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178F511A29CC78EF0074C126 /* RealmSwift in Frameworks */,
+				178F511829CC78EF0074C126 /* Realm in Frameworks */,
+				2644F83CAFEB3B09B1C8DD5C /* Pods_SpeedReader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17A725B229AA9CD5000FFED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0AE20C66A788AF8A03B4D7 /* Pods_SpeedReaderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17A725BC29AA9CD5000FFED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC5C003AFA1D7B63E6ED737 /* Pods_SpeedReader_SpeedReaderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17497C3929F58AE800B79A45 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				17497C3729F5898800B79A45 /* OnboardingSheet.swift */,
+				17497C3C29F58B2600B79A45 /* welcomeView.swift */,
+				17497C3E29F58B3F00B79A45 /* locationView.swift */,
+				17497C3329F577AE00B79A45 /* onboardingPage.swift */,
+				17497C3529F580E800B79A45 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		1753D9D329F9B44400A7504E /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				1753D9D129F9B2A700A7504E /* SettingsView.swift */,
+				1753D9D429F9B46400A7504E /* GeneralSettingsView.swift */,
+				1753D9D629F9B4D900A7504E /* LocationSettingsView.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		177C6D792A128E9900EA97B7 /* readingTyps */ = {
+			isa = PBXGroup;
+			children = (
+				17FA14E829BD26FE00A41A08 /* BookDetail.swift */,
+				177C6D7C2A12963E00EA97B7 /* ViewBook.swift */,
+				177C6D7A2A12944B00EA97B7 /* ViewSpritz.swift */,
+			);
+			path = readingTyps;
+			sourceTree = "<group>";
+		};
+		1783F84229D2E27100AD8EA5 /* parser */ = {
+			isa = PBXGroup;
+			children = (
+				17F713E329E16BDA001F01E6 /* Parser.swift */,
+				1783F84329D2E30700AD8EA5 /* EPUBParser.swift */,
+				17BA9E2629D2F0000086C49E /* EPUBBook.swift */,
+				17F713E229DC5357001F01E6 /* File */,
+				17BA9E3229D3198E0086C49E /* OPF */,
+				17BA9E3329D319C00086C49E /* XPath.swift */,
+			);
+			path = parser;
+			sourceTree = "<group>";
+		};
+		17A7259B29AA9CD2000FFED2 = {
+			isa = PBXGroup;
+			children = (
+				1783F84229D2E27100AD8EA5 /* parser */,
+				17CE7A7729C83B99003DF6F8 /* Spritz */,
+				17A725A629AA9CD2000FFED2 /* SpeedReader */,
+				17A725B829AA9CD5000FFED2 /* SpeedReaderTests */,
+				17C8E3CB29D42F340094FDE6 /* Sample eBooks */,
+				17A725C229AA9CD5000FFED2 /* SpeedReaderUITests */,
+				17A725A529AA9CD2000FFED2 /* Products */,
+				2C7BE7780F27294CCB47AA63 /* Pods */,
+				393F647E55AB77933A58A4D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		17A725A529AA9CD2000FFED2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17A725A429AA9CD2000FFED2 /* SpeedReader.app */,
+				17A725B529AA9CD5000FFED2 /* SpeedReaderTests.xctest */,
+				17A725BF29AA9CD5000FFED2 /* SpeedReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17A725A629AA9CD2000FFED2 /* SpeedReader */ = {
+			isa = PBXGroup;
+			children = (
+				17A725A729AA9CD2000FFED2 /* SpeedReaderApp.swift */,
+				17A725A929AA9CD2000FFED2 /* ContentView.swift */,
+				17BFF69629CB352100438983 /* NavigationBarLeft.swift */,
+				17FA149F29BA42B900A41A08 /* CollectionViewer.swift */,
+				177C6D792A128E9900EA97B7 /* readingTyps */,
+				17FA14A129BB52F700A41A08 /* Book.swift */,
+				177C6D7E2A12C3B100EA97B7 /* Chapter.swift */,
+				17FA14A329BB543900A41A08 /* BookCell.swift */,
+				178F511B29CC8D170074C126 /* colorComponent.swift */,
+				1753D9D329F9B44400A7504E /* Setting */,
+				17A725B029AA9CD5000FFED2 /* SpeedReader.entitlements */,
+				17BFF69B29CB4C1100438983 /* DataController.swift */,
+				1753D9CA29F6E91B00A7504E /* FileManagerSingelton.swift */,
+				177C6D772A127EAC00EA97B7 /* Toolbar.swift */,
+				17497C3929F58AE800B79A45 /* Onboarding */,
+				17BFF69829CB4A5800438983 /* Bookworm.xcdatamodeld */,
+				17A725AD29AA9CD5000FFED2 /* Preview Content */,
+				17F713E729E1E13F001F01E6 /* commands.swift */,
+			);
+			path = SpeedReader;
+			sourceTree = "<group>";
+		};
+		17A725AD29AA9CD5000FFED2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				177C6D752A1223F200EA97B7 /* Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		17A725B829AA9CD5000FFED2 /* SpeedReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				17A725B929AA9CD5000FFED2 /* SpeedReaderTests.swift */,
+				17C8E3C929D425440094FDE6 /* EPUBTest.swift */,
+			);
+			path = SpeedReaderTests;
+			sourceTree = "<group>";
+		};
+		17A725C229AA9CD5000FFED2 /* SpeedReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17A725C329AA9CD5000FFED2 /* SpeedReaderUITests.swift */,
+				17A725C529AA9CD5000FFED2 /* SpeedReaderUITestsLaunchTests.swift */,
+			);
+			path = SpeedReaderUITests;
+			sourceTree = "<group>";
+		};
+		17BA9E3229D3198E0086C49E /* OPF */ = {
+			isa = PBXGroup;
+			children = (
+				17BA9E2A29D2F34E0086C49E /* OPFDocument.swift */,
+				17BA9E2C29D2F38A0086C49E /* OPFMetadata.swift */,
+				17BA9E2E29D2F3DE0086C49E /* OPFManifest.swift */,
+				17BA9E3029D3183A0086C49E /* OPFSpine.swift */,
+			);
+			path = OPF;
+			sourceTree = "<group>";
+		};
+		17CE7A7729C83B99003DF6F8 /* Spritz */ = {
+			isa = PBXGroup;
+			children = (
+				17CE7A7829C83C43003DF6F8 /* Spritz.swift */,
+				17087D3D29CAEE2F00150E51 /* SpritzWordViewMac.swift */,
+				17CE7A7C29C84A60003DF6F8 /* SpritzTimer.swift */,
+				1787BD1B29F43CE400964D00 /* SpritzTimeManager.swift */,
+				17CE7A7A29C8418B003DF6F8 /* SpritzWord.swift */,
+			);
+			path = Spritz;
+			sourceTree = "<group>";
+		};
+		17F713E229DC5357001F01E6 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				17C8E3D029D5C77A0094FDE6 /* Resource.swift */,
+				17C8E3D229D5C9320094FDE6 /* singleResources.swift */,
+				17BA9E2829D2F0380086C49E /* ContainerDocument.swift */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		2C7BE7780F27294CCB47AA63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4C3846C27F814E4C0E0B2EF /* Pods-SpeedReader.debug.xcconfig */,
+				E561EA974D7AA286712044F1 /* Pods-SpeedReader.release.xcconfig */,
+				0297E34CC713E65DCD604180 /* Pods-SpeedReader-SpeedReaderUITests.debug.xcconfig */,
+				F94848AFBE0DBAA63EBEAABF /* Pods-SpeedReader-SpeedReaderUITests.release.xcconfig */,
+				ACEF881C66826EFEAEF44F08 /* Pods-SpeedReaderTests.debug.xcconfig */,
+				57807746B741303D9B112991 /* Pods-SpeedReaderTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		393F647E55AB77933A58A4D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				610B25981A1474FE0E097014 /* Pods_SpeedReader.framework */,
+				7D63D121BB067185B5C8E244 /* Pods_SpeedReader_SpeedReaderUITests.framework */,
+				B733B0086A589B25BA5A40F3 /* Pods_SpeedReaderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17A725A329AA9CD2000FFED2 /* SpeedReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17A725C929AA9CD5000FFED2 /* Build configuration list for PBXNativeTarget "SpeedReader" */;
+			buildPhases = (
+				CD31680DA3E8F3BFA2B0B6E6 /* [CP] Check Pods Manifest.lock */,
+				17A725A029AA9CD2000FFED2 /* Sources */,
+				17A725A129AA9CD2000FFED2 /* Frameworks */,
+				17A725A229AA9CD2000FFED2 /* Resources */,
+				CCBB45962028B1E434474C26 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeedReader;
+			packageProductDependencies = (
+				178F511729CC78EF0074C126 /* Realm */,
+				178F511929CC78EF0074C126 /* RealmSwift */,
+			);
+			productName = SpeedReader;
+			productReference = 17A725A429AA9CD2000FFED2 /* SpeedReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17A725B429AA9CD5000FFED2 /* SpeedReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17A725CC29AA9CD5000FFED2 /* Build configuration list for PBXNativeTarget "SpeedReaderTests" */;
+			buildPhases = (
+				00E02C783A40AB20FF80A2CE /* [CP] Check Pods Manifest.lock */,
+				17A725B129AA9CD5000FFED2 /* Sources */,
+				17A725B229AA9CD5000FFED2 /* Frameworks */,
+				17A725B329AA9CD5000FFED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17A725B729AA9CD5000FFED2 /* PBXTargetDependency */,
+			);
+			name = SpeedReaderTests;
+			productName = SpeedReaderTests;
+			productReference = 17A725B529AA9CD5000FFED2 /* SpeedReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17A725BE29AA9CD5000FFED2 /* SpeedReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17A725CF29AA9CD5000FFED2 /* Build configuration list for PBXNativeTarget "SpeedReaderUITests" */;
+			buildPhases = (
+				AAFCDC6B7056C60B66A4249E /* [CP] Check Pods Manifest.lock */,
+				17A725BB29AA9CD5000FFED2 /* Sources */,
+				17A725BC29AA9CD5000FFED2 /* Frameworks */,
+				17A725BD29AA9CD5000FFED2 /* Resources */,
+				1C15F1B3BFAE873771BDE3BD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17A725C129AA9CD5000FFED2 /* PBXTargetDependency */,
+			);
+			name = SpeedReaderUITests;
+			productName = SpeedReaderUITests;
+			productReference = 17A725BF29AA9CD5000FFED2 /* SpeedReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17A7259C29AA9CD2000FFED2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					17A725A329AA9CD2000FFED2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					17A725B429AA9CD5000FFED2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 17A725A329AA9CD2000FFED2;
+					};
+					17A725BE29AA9CD5000FFED2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 17A725A329AA9CD2000FFED2;
+					};
+				};
+			};
+			buildConfigurationList = 17A7259F29AA9CD2000FFED2 /* Build configuration list for PBXProject "SpeedReader" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17A7259B29AA9CD2000FFED2;
+			packageReferences = (
+				178F511629CC78EF0074C126 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = 17A725A529AA9CD2000FFED2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17A725A329AA9CD2000FFED2 /* SpeedReader */,
+				17A725B429AA9CD5000FFED2 /* SpeedReaderTests */,
+				17A725BE29AA9CD5000FFED2 /* SpeedReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17A725A229AA9CD2000FFED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C8E3CC29D42F340094FDE6 /* Sample eBooks in Resources */,
+				177C6D762A1223F200EA97B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17A725B329AA9CD5000FFED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C8E3CD29D42F340094FDE6 /* Sample eBooks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17A725BD29AA9CD5000FFED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00E02C783A40AB20FF80A2CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeedReaderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C15F1B3BFAE873771BDE3BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeedReader-SpeedReaderUITests/Pods-SpeedReader-SpeedReaderUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeedReader-SpeedReaderUITests/Pods-SpeedReader-SpeedReaderUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpeedReader-SpeedReaderUITests/Pods-SpeedReader-SpeedReaderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAFCDC6B7056C60B66A4249E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeedReader-SpeedReaderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCBB45962028B1E434474C26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeedReader/Pods-SpeedReader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeedReader/Pods-SpeedReader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpeedReader/Pods-SpeedReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD31680DA3E8F3BFA2B0B6E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeedReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17A725A029AA9CD2000FFED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1753D9D229F9B2A700A7504E /* SettingsView.swift in Sources */,
+				17BA9E3129D3183A0086C49E /* OPFSpine.swift in Sources */,
+				1753D9D529F9B46400A7504E /* GeneralSettingsView.swift in Sources */,
+				17CE7A7B29C8418B003DF6F8 /* SpritzWord.swift in Sources */,
+				17FA14A429BB543900A41A08 /* BookCell.swift in Sources */,
+				17497C3629F580E800B79A45 /* OnboardingView.swift in Sources */,
+				17F713E829E1E13F001F01E6 /* commands.swift in Sources */,
+				17087D3E29CAEE2F00150E51 /* SpritzWordViewMac.swift in Sources */,
+				17497C3829F5898800B79A45 /* OnboardingSheet.swift in Sources */,
+				1753D9CB29F6E91B00A7504E /* FileManagerSingelton.swift in Sources */,
+				17497C3F29F58B3F00B79A45 /* locationView.swift in Sources */,
+				1783F84429D2E30700AD8EA5 /* EPUBParser.swift in Sources */,
+				17A725AA29AA9CD2000FFED2 /* ContentView.swift in Sources */,
+				17497C3429F577AE00B79A45 /* onboardingPage.swift in Sources */,
+				177C6D7B2A12944B00EA97B7 /* ViewSpritz.swift in Sources */,
+				17CE7A7D29C84A60003DF6F8 /* SpritzTimer.swift in Sources */,
+				17FA14A029BA42B900A41A08 /* CollectionViewer.swift in Sources */,
+				17BFF69729CB352100438983 /* NavigationBarLeft.swift in Sources */,
+				177C6D782A127EAC00EA97B7 /* Toolbar.swift in Sources */,
+				17BA9E2D29D2F38A0086C49E /* OPFMetadata.swift in Sources */,
+				17BA9E2F29D2F3DE0086C49E /* OPFManifest.swift in Sources */,
+				1753D9D729F9B4D900A7504E /* LocationSettingsView.swift in Sources */,
+				1787BD1C29F43CE400964D00 /* SpritzTimeManager.swift in Sources */,
+				177C6D7F2A12C3B100EA97B7 /* Chapter.swift in Sources */,
+				177C6D7D2A12963E00EA97B7 /* ViewBook.swift in Sources */,
+				17CE7A7929C83C43003DF6F8 /* Spritz.swift in Sources */,
+				17BFF69C29CB4C1100438983 /* DataController.swift in Sources */,
+				17497C3D29F58B2600B79A45 /* welcomeView.swift in Sources */,
+				17BA9E2729D2F0000086C49E /* EPUBBook.swift in Sources */,
+				178F511C29CC8D170074C126 /* colorComponent.swift in Sources */,
+				17A725A829AA9CD2000FFED2 /* SpeedReaderApp.swift in Sources */,
+				17C8E3D129D5C77A0094FDE6 /* Resource.swift in Sources */,
+				17FA14A229BB52F700A41A08 /* Book.swift in Sources */,
+				17BA9E3429D319C00086C49E /* XPath.swift in Sources */,
+				17BA9E2B29D2F34E0086C49E /* OPFDocument.swift in Sources */,
+				17BA9E2929D2F0380086C49E /* ContainerDocument.swift in Sources */,
+				17F713E429E16BDA001F01E6 /* Parser.swift in Sources */,
+				17FA14E929BD26FE00A41A08 /* BookDetail.swift in Sources */,
+				17BFF69A29CB4A5800438983 /* Bookworm.xcdatamodeld in Sources */,
+				17C8E3D329D5C9320094FDE6 /* singleResources.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17A725B129AA9CD5000FFED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A725BA29AA9CD5000FFED2 /* SpeedReaderTests.swift in Sources */,
+				17C8E3CA29D425440094FDE6 /* EPUBTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17A725BB29AA9CD5000FFED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A725C429AA9CD5000FFED2 /* SpeedReaderUITests.swift in Sources */,
+				17A725C629AA9CD5000FFED2 /* SpeedReaderUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17A725B729AA9CD5000FFED2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17A725A329AA9CD2000FFED2 /* SpeedReader */;
+			targetProxy = 17A725B629AA9CD5000FFED2 /* PBXContainerItemProxy */;
+		};
+		17A725C129AA9CD5000FFED2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17A725A329AA9CD2000FFED2 /* SpeedReader */;
+			targetProxy = 17A725C029AA9CD5000FFED2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17A725C729AA9CD5000FFED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17A725C829AA9CD5000FFED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		17A725CA29AA9CD5000FFED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C3846C27F814E4C0E0B2EF /* Pods-SpeedReader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = SpeedReader/SpeedReader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeedReader/Preview Content\"";
+				DEVELOPMENT_TEAM = 8988HZMBDP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SpeedRead;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SpeedReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		17A725CB29AA9CD5000FFED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E561EA974D7AA286712044F1 /* Pods-SpeedReader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = SpeedReader/SpeedReader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeedReader/Preview Content\"";
+				DEVELOPMENT_TEAM = 8988HZMBDP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SpeedRead;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SpeedReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		17A725CD29AA9CD5000FFED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACEF881C66826EFEAEF44F08 /* Pods-SpeedReaderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 8988HZMBDP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Marvin.SpeedReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeedReader";
+			};
+			name = Debug;
+		};
+		17A725CE29AA9CD5000FFED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57807746B741303D9B112991 /* Pods-SpeedReaderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 8988HZMBDP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Marvin.SpeedReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeedReader";
+			};
+			name = Release;
+		};
+		17A725D029AA9CD5000FFED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0297E34CC713E65DCD604180 /* Pods-SpeedReader-SpeedReaderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 8988HZMBDP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Marvin.SpeedReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SpeedReader;
+			};
+			name = Debug;
+		};
+		17A725D129AA9CD5000FFED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F94848AFBE0DBAA63EBEAABF /* Pods-SpeedReader-SpeedReaderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 8988HZMBDP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Marvin.SpeedReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SpeedReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17A7259F29AA9CD2000FFED2 /* Build configuration list for PBXProject "SpeedReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A725C729AA9CD5000FFED2 /* Debug */,
+				17A725C829AA9CD5000FFED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17A725C929AA9CD5000FFED2 /* Build configuration list for PBXNativeTarget "SpeedReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A725CA29AA9CD5000FFED2 /* Debug */,
+				17A725CB29AA9CD5000FFED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17A725CC29AA9CD5000FFED2 /* Build configuration list for PBXNativeTarget "SpeedReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A725CD29AA9CD5000FFED2 /* Debug */,
+				17A725CE29AA9CD5000FFED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17A725CF29AA9CD5000FFED2 /* Build configuration list for PBXNativeTarget "SpeedReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A725D029AA9CD5000FFED2 /* Debug */,
+				17A725D129AA9CD5000FFED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		178F511629CC78EF0074C126 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.37.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		178F511729CC78EF0074C126 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 178F511629CC78EF0074C126 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		178F511929CC78EF0074C126 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 178F511629CC78EF0074C126 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		17BFF69829CB4A5800438983 /* Bookworm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				17BFF69929CB4A5800438983 /* Bookworm.xcdatamodel */,
+			);
+			currentVersion = 17BFF69929CB4A5800438983 /* Bookworm.xcdatamodel */;
+			path = Bookworm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 17A7259C29AA9CD2000FFED2 /* Project object */;
+}
