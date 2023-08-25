@@ -90,7 +90,7 @@
 		1753D9D129F9B2A700A7504E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		1753D9D429F9B46400A7504E /* GeneralSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralSettingsView.swift; sourceTree = "<group>"; };
 		1753D9D629F9B4D900A7504E /* LocationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSettingsView.swift; sourceTree = "<group>"; };
-		177C6D752A1223F200EA97B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		177C6D752A1223F200EA97B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Preview Content/Assets.xcassets"; sourceTree = "<group>"; };
 		177C6D772A127EAC00EA97B7 /* Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar.swift; sourceTree = "<group>"; };
 		177C6D7A2A12944B00EA97B7 /* ViewSpritz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSpritz.swift; sourceTree = "<group>"; };
 		177C6D7C2A12963E00EA97B7 /* ViewBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBook.swift; sourceTree = "<group>"; };
@@ -259,18 +259,10 @@
 				177C6D772A127EAC00EA97B7 /* Toolbar.swift */,
 				17497C3929F58AE800B79A45 /* Onboarding */,
 				17BFF69829CB4A5800438983 /* Bookworm.xcdatamodeld */,
-				17A725AD29AA9CD5000FFED2 /* Preview Content */,
+				177C6D752A1223F200EA97B7 /* Assets.xcassets */,
 				17F713E729E1E13F001F01E6 /* commands.swift */,
 			);
 			path = SpeedReader;
-			sourceTree = "<group>";
-		};
-		17A725AD29AA9CD5000FFED2 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				177C6D752A1223F200EA97B7 /* Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		17A725B829AA9CD5000FFED2 /* SpeedReaderTests */ = {
