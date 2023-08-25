@@ -27,8 +27,6 @@ struct CollectionViewer: View {
                     ForEach(allBooks)
                     { book in
                         Button(action: {
-                            //BookDetail(book: book).openNewWindow(title: book.name, book: book)
-                            //BookDetail(book: book).openInWindow(title: book.name, sender: self)
                             openWindow(value: book)
                         }) {
                             BookCell(book: book)

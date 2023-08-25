@@ -97,3 +97,8 @@ struct ViewSpritz: View {
         }
     }
 }
+struct ViewSpritz_Previews: PreviewProvider {
+    static var previews: some View {
+        ViewSpritz(book: Book())
+    }
+}

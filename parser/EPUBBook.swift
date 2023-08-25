@@ -38,19 +38,21 @@ class EPUBBook {
         return words.count
     }
     
+    /**
+    convert a EPUB Objekt into a Book Objekt
+     */
     func getBook() -> Book{
         
         let name = opf.metadata.titles[0]
         let loaction = baseURLofBook.absoluteString
-        let coverURL = getCover()?.absoluteString 
-        var text = String("")
-        for chapter in opf.spine.idrefs{
-            text.append(opf.resource.findById(chapter)?.text ?? "")
-            //print(opf.resource.findById(chapter)?.text ?? "")
-            //print(wordCounter(eingabe:  opf.resource.findById(chapter)?.text ?? ""))
-        }
-        print(wordCounter(eingabe: text))
-        return Book(location: loaction ,name: name,cover: coverURL ,text: text)
+        let coverURL = getCover()?.absoluteString
+        
+        let book = Book(location: loaction ,name: name,cover: coverURL)
+        
+        //Add Chapter list to the book
+        book.initChapterList(list: opf.resource.getAllSingleResourcesAsChapter())
+        
+        return book
     }
     
     func getCover() -> URL?{

@@ -10,12 +10,12 @@ import Foundation
 class singleResources{
     var id: String!
     var href: String?
-    var fullHref: String?
+    var htmlString: String?
     var text: String?
     
     init(id: String, fullHref: String? = nil, text: String? = nil) {
         self.id = id
-        self.fullHref = fullHref
+        self.htmlString = fullHref
         if (fullHref?.contains("/"))! && fullHref != nil{
             href = getHref(fullHreg: fullHref!)
         }
@@ -24,7 +24,7 @@ class singleResources{
     
     func getHref(fullHreg: String) -> String!{
         if fullHreg.isEmpty { return nil }
-        var paths = fullHreg.components(separatedBy: "/")
+        let paths = fullHreg.components(separatedBy: "/")
         return paths.last
     }
     

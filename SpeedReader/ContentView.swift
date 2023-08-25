@@ -25,9 +25,6 @@ struct ContentView: View {
             NavigationBarLeft()
             CollectionViewer()
         }
-        //.sheet(isPresented: $alreadypresentet, content: {
-         //   OnboardingView(pages: .welcome)
-        //})
     }
 }
 

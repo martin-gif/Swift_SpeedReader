@@ -16,7 +16,7 @@ class Book: Object ,ObjectKeyIdentifiable ,Identifiable, Codable{
     @Persisted var name : String
     @Persisted var cover : String?
     @Persisted var text: String
-    //@Persisted var chapterList: RealmSwift.List<chapter>
+    @Persisted var chapterList: SpeedReader.chapterList?
     @Persisted var textReaden: Int
     @Persisted var tags: RealmSwift.List<String>
     
@@ -29,6 +29,7 @@ class Book: Object ,ObjectKeyIdentifiable ,Identifiable, Codable{
         self.text = text
         self.textReaden = textReaden
         self.tags = tags
+        self.chapterList = SpeedReader.chapterList()
     }
     
     func getWordsReaden() -> Int
@@ -36,24 +37,23 @@ class Book: Object ,ObjectKeyIdentifiable ,Identifiable, Codable{
         return textReaden
     }
     
-    func getPercentage() -> Int
-    {
-        let percentage = self.textReaden/self.text.count
-        return percentage
+    func initChapterList(list: [chapter]){
+        self.chapterList?.loadList(list: list)
     }
-}
-
-
-
-private func randomColor() -> colorComponent
-{
-    return colorComponent(
-        red:   .random(in: 0..<1),
-        green: .random(in: 0..<1),
-        blue:  .random(in: 0..<1),
-        alpha: 1.0
-    )
-}
+    
+    func getCurrentText() -> String{
+        self.text = chapterList!.getCurrentText()
+        return self.text
+    }
+    
+    func getNextChapter() -> String{
+        self.text = chapterList!.getNextChapter()
+        return text
+    }
+    func getChapterID() -> String{
+        return self.chapterList?._currentChapter?.getID() ?? "empty"
+    }
+}   
 
 private func preTags() -> RealmSwift.List<String>
 {

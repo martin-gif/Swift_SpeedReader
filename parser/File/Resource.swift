@@ -25,11 +25,17 @@ class Resource{
         print("start file printing")
         let res = getFilesOfType(fileType: "xhtml", from: url)
         for item in res{
-            print(item)
+            //print(item)
             guard let singleScr = findByHref(item.lastPathComponent) else{
                 continue
             }
-            singleScr.text = getDisplayedTextFromLocalHTMLFile(at: item)
+            //singleScr.text = getDisplayedTextFromLocalHTMLFile(at: item)
+            do {
+                singleScr.htmlString = try String(contentsOf: item, encoding: .utf8)
+            } catch {
+                print("Error reading or parsing HTML file: \(error.localizedDescription)")
+                continue
+            }
         }
         print("end file printing")
     }
@@ -47,35 +53,8 @@ class Resource{
         return files
     }
     
-    func getDisplayedTextFromLocalHTMLFile(at url: URL) -> String? {
-        do {
-                let htmlString = try String(contentsOf: url, encoding: .utf8)
-                let doc = try SwiftSoup.parse(htmlString)
-                //print(doc)
-                let bodyElements = doc.body()
-            let displayedText = try getTextFromHTML((bodyElements?.children())!)
-                //print(displayedText)
-                return displayedText
-            } catch {
-                print("Error reading or parsing HTML file: \(error.localizedDescription)")
-                return nil
-            }
-    }
-
-    // hier letztes problem, das tag "<section>" gescannt wurde und dann nocheinmal alle subelemente wodurch text doppelt vorkamm 
-    private func getTextFromHTML(_ elements: Elements) throws -> String {
-        var displayedText = [String]()
-        for element in elements {
-            displayedText.append(try element.text())
-            //print(try element.text())
-        }
-        return displayedText.joined(separator: " ")
-    }
-    
-
-    
     func add(resource: singleResources){
-        self.resources[resource.fullHref!] = resource
+        self.resources[resource.htmlString!] = resource
     }
     
     /**
@@ -85,7 +64,7 @@ class Resource{
         guard !href.isEmpty else { return nil }
 
         // This clean is neede because may the toc.ncx is not located in the root directory
-        let cleanHref = href.replacingOccurrences(of: "../", with: "")
+        //let cleanHref = href.replacingOccurrences(of: "../", with: "")
         
         return resources[htmlToId[href]!]
     }
@@ -125,5 +104,19 @@ class Resource{
             }
         }
         return false
+    }
+    
+    func getAllSingleResourcesAsChapter() -> [chapter]{
+        var list = [chapter]()
+        for item in resources{
+            let value = item.value
+            let chapter = chapter()
+            chapter.href = value.href ?? ""
+            chapter.htmlString = value.htmlString ?? ""
+            chapter.id = value.id
+            
+            list.append(chapter)
+        }
+        return list
     }
 }

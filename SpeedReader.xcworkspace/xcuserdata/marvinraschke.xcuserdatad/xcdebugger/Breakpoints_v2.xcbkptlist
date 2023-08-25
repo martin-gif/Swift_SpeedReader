@@ -362,14 +362,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "61425DC8-8143-4E10-8D61-FB6AC15FDDF5"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "parser/File/Resource.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
             landmarkName = "loadText(url:)"
             landmarkType = "7">
             <Locations>
@@ -504,7 +504,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "6824E8B1-5E31-4A33-B6F8-F41559D667C7"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "parser/File/Resource.swift"
@@ -583,386 +583,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "EAA58F69-CDB9-4801-B368-DA79A86316F8"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "parser/EPUBBook.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "getBook()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "35A7453F-4469-443C-A98D-65ED300CEC06"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "parser/EPUBBook.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "getBook()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "35A7453F-4469-443C-A98D-65ED300CEC06 - dab015f79c1458df"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SpeedReader.EPUBBook.getBook() -&gt; SpeedReader.Book"
-                  moduleName = "SpeedReader"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marvinraschke/Github/SpeedReader_1/SpeedReader/parser/EPUBBook.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48"
-                  offsetFromSymbolStart = "2512">
-               </Location>
-               <Location
-                  uuid = "35A7453F-4469-443C-A98D-65ED300CEC06 - dab015f79c1458df"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SpeedReader.EPUBBook.getBook() -&gt; SpeedReader.Book"
-                  moduleName = "SpeedReader"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marvinraschke/Github/SpeedReader_1/SpeedReader/parser/EPUBBook.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48"
-                  offsetFromSymbolStart = "1860">
-               </Location>
-               <Location
-                  uuid = "35A7453F-4469-443C-A98D-65ED300CEC06 - dab015f79c1458df"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SpeedReader.EPUBBook.getBook() -&gt; SpeedReader.Book"
-                  moduleName = "SpeedReader"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marvinraschke/Github/SpeedReader_1/SpeedReader/parser/EPUBBook.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48"
-                  offsetFromSymbolStart = "1136">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "289D45EB-ABB0-4262-B3F1-70047ED88266"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "parser/File/Resource.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
-            landmarkName = "getDisplayedTextFromLocalHTMLFile(at:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "289D45EB-ABB0-4262-B3F1-70047ED88266 - 5f12a4c2041dff8f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SpeedReader.Resource.getDisplayedTextFromLocalHTMLFile(at: Foundation.URL) -&gt; Swift.Optional&lt;Swift.String&gt;"
-                  moduleName = "SpeedReader"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marvinraschke/Github/SpeedReader_1/SpeedReader/parser/File/Resource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "53"
-                  endingLineNumber = "53"
-                  offsetFromSymbolStart = "588">
-               </Location>
-               <Location
-                  uuid = "289D45EB-ABB0-4262-B3F1-70047ED88266 - 5f12a4c2041dff8f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SpeedReader.Resource.getDisplayedTextFromLocalHTMLFile(at: Foundation.URL) -&gt; Swift.Optional&lt;Swift.String&gt;"
-                  moduleName = "SpeedReader"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marvinraschke/Github/SpeedReader_1/SpeedReader/parser/File/Resource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "53"
-                  endingLineNumber = "53"
-                  offsetFromSymbolStart = "676">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "18D9C788-E552-4344-B0D1-BFAAB9BEE895"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "parser/File/Resource.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
-            landmarkName = "getDisplayedTextFromLocalHTMLFile(at:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "18D9C788-E552-4344-B0D1-BFAAB9BEE895 - 5f12a4c2041dffa0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SpeedReader.Resource.getDisplayedTextFromLocalHTMLFile(at: Foundation.URL) -&gt; Swift.Optional&lt;Swift.String&gt;"
-                  moduleName = "SpeedReader"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marvinraschke/Github/SpeedReader_1/SpeedReader/parser/File/Resource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "54"
-                  endingLineNumber = "54"
-                  offsetFromSymbolStart = "800">
-               </Location>
-               <Location
-                  uuid = "18D9C788-E552-4344-B0D1-BFAAB9BEE895 - 5f12a4c2041dffa0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SpeedReader.Resource.getDisplayedTextFromLocalHTMLFile(at: Foundation.URL) -&gt; Swift.Optional&lt;Swift.String&gt;"
-                  moduleName = "SpeedReader"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marvinraschke/Github/SpeedReader_1/SpeedReader/parser/File/Resource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "54"
-                  endingLineNumber = "54"
-                  offsetFromSymbolStart = "788">
-               </Location>
-               <Location
-                  uuid = "18D9C788-E552-4344-B0D1-BFAAB9BEE895 - 5f12a4c2041dffa0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SpeedReader.Resource.getDisplayedTextFromLocalHTMLFile(at: Foundation.URL) -&gt; Swift.Optional&lt;Swift.String&gt;"
-                  moduleName = "SpeedReader"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marvinraschke/Github/SpeedReader_1/SpeedReader/parser/File/Resource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "54"
-                  endingLineNumber = "54"
-                  offsetFromSymbolStart = "804">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "6758CE37-5FBB-4525-8BF3-5BED32324706"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "parser/File/Resource.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
-            landmarkName = "getDisplayedTextFromLocalHTMLFile(at:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "6758CE37-5FBB-4525-8BF3-5BED32324706 - 5f12a4c2041dfc4d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SpeedReader.Resource.getDisplayedTextFromLocalHTMLFile(at: Foundation.URL) -&gt; Swift.Optional&lt;Swift.String&gt;"
-                  moduleName = "SpeedReader"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marvinraschke/Github/SpeedReader_1/SpeedReader/parser/File/Resource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "51"
-                  endingLineNumber = "51"
-                  offsetFromSymbolStart = "364">
-               </Location>
-               <Location
-                  uuid = "6758CE37-5FBB-4525-8BF3-5BED32324706 - 5f12a4c2041dfc6e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SpeedReader.Resource.getDisplayedTextFromLocalHTMLFile(at: Foundation.URL) -&gt; Swift.Optional&lt;Swift.String&gt;"
-                  moduleName = "SpeedReader"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marvinraschke/Github/SpeedReader_1/SpeedReader/parser/File/Resource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "52"
-                  endingLineNumber = "52"
-                  offsetFromSymbolStart = "316">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "6BE1B444-6B52-403F-8CB7-3DE6E43C161C"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "parser/File/Resource.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
-            landmarkName = "getTextFromHTML(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "38858D5E-17FF-49F0-ACF9-CFDAE7A3B2CF"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "parser/File/Resource.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
-            landmarkName = "getTextFromHTML(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "38858D5E-17FF-49F0-ACF9-CFDAE7A3B2CF - d4cbf92794fb9744"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SpeedReader.Resource.getTextFromHTML(SwiftSoup.Elements) throws -&gt; Swift.String"
-                  moduleName = "SpeedReader"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marvinraschke/Github/SpeedReader_1/SpeedReader/parser/File/Resource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "64"
-                  endingLineNumber = "64"
-                  offsetFromSymbolStart = "172">
-               </Location>
-               <Location
-                  uuid = "38858D5E-17FF-49F0-ACF9-CFDAE7A3B2CF - d4cbf92794fb9744"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SpeedReader.Resource.getTextFromHTML(SwiftSoup.Elements) throws -&gt; Swift.String"
-                  moduleName = "SpeedReader"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marvinraschke/Github/SpeedReader_1/SpeedReader/parser/File/Resource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "64"
-                  endingLineNumber = "64"
-                  offsetFromSymbolStart = "496">
-               </Location>
-               <Location
-                  uuid = "38858D5E-17FF-49F0-ACF9-CFDAE7A3B2CF - d4cbf92794fb9744"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SpeedReader.Resource.getTextFromHTML(SwiftSoup.Elements) throws -&gt; Swift.String"
-                  moduleName = "SpeedReader"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marvinraschke/Github/SpeedReader_1/SpeedReader/parser/File/Resource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "64"
-                  endingLineNumber = "64"
-                  offsetFromSymbolStart = "188">
-               </Location>
-               <Location
-                  uuid = "38858D5E-17FF-49F0-ACF9-CFDAE7A3B2CF - d4cbf92794fb9782"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SpeedReader.Resource.getTextFromHTML(SwiftSoup.Elements) throws -&gt; Swift.String"
-                  moduleName = "SpeedReader"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marvinraschke/Github/SpeedReader_1/SpeedReader/parser/File/Resource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "66"
-                  endingLineNumber = "66"
-                  offsetFromSymbolStart = "188">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "21B243EE-5E88-4CB9-AD1C-E4FFC93EFC63"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "parser/File/Resource.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "getDisplayedTextFromLocalHTMLFile(at:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "21B243EE-5E88-4CB9-AD1C-E4FFC93EFC63 - 5f12a4c2041dfc4d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SpeedReader.Resource.getDisplayedTextFromLocalHTMLFile(at: Foundation.URL) -&gt; Swift.Optional&lt;Swift.String&gt;"
-                  moduleName = "SpeedReader"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marvinraschke/Github/SpeedReader_1/SpeedReader/parser/File/Resource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "51"
-                  endingLineNumber = "51"
-                  offsetFromSymbolStart = "364">
-               </Location>
-               <Location
-                  uuid = "21B243EE-5E88-4CB9-AD1C-E4FFC93EFC63 - 5f12a4c2041dfc4d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SpeedReader.Resource.getDisplayedTextFromLocalHTMLFile(at: Foundation.URL) -&gt; Swift.Optional&lt;Swift.String&gt;"
-                  moduleName = "SpeedReader"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marvinraschke/Github/SpeedReader_1/SpeedReader/parser/File/Resource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "51"
-                  endingLineNumber = "51"
-                  offsetFromSymbolStart = "356">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "B09028F2-8CD8-4B4D-9E2E-15E577ACA1D3"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -995,22 +615,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "0B458047-0BA5-47DD-B983-A40259A6B29E"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "parser/EPUBBook.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "getBook()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "ABCE0B0A-6D9E-4B66-8401-95ADC09A604A"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -1034,8 +638,8 @@
             filePath = "parser/EPUBBook.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "getCover()"
             landmarkType = "7">
             <Locations>
@@ -1082,8 +686,8 @@
             filePath = "parser/EPUBBook.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
             landmarkName = "getCover()"
             landmarkType = "7">
             <Locations>
@@ -1117,6 +721,21 @@
                   endingLineNumber = "68"
                   offsetFromSymbolStart = "1768">
                </Location>
+               <Location
+                  uuid = "D89B67DF-F81E-4E58-B63E-0F3809B2429A - d4d1f9b445787fee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedReader.EPUBBook.getCover() -&gt; Swift.Optional&lt;Foundation.URL&gt;"
+                  moduleName = "SpeedReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marvinraschke/Github/SpeedReader_1/SpeedReader/parser/EPUBBook.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "1768">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -1124,7 +743,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "84811FB1-1AAC-40E4-866E-8F23C09E1D5D"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "parser/File/Resource.swift"
@@ -1140,7 +759,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "24AF86B8-25DB-469F-91BB-27632DF749B7"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "parser/File/Resource.swift"
@@ -1150,13 +769,45 @@
             endingLineNumber = "29"
             landmarkName = "loadText(url:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "24AF86B8-25DB-469F-91BB-27632DF749B7 - 6ac861836e4b8037"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedReader.Resource.loadText(url: Foundation.URL) -&gt; ()"
+                  moduleName = "SpeedReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marvinraschke/Github/SpeedReader_1/SpeedReader/parser/File/Resource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "896">
+               </Location>
+               <Location
+                  uuid = "24AF86B8-25DB-469F-91BB-27632DF749B7 - 6ac861836e4b8037"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedReader.Resource.loadText(url: Foundation.URL) -&gt; ()"
+                  moduleName = "SpeedReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marvinraschke/Github/SpeedReader_1/SpeedReader/parser/File/Resource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "980">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "8434E5F2-DC37-4437-AD07-9B014EFCB467"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "parser/File/Resource.swift"
@@ -1166,6 +817,324 @@
             endingLineNumber = "26"
             landmarkName = "loadText(url:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "697DB071-E4A2-496D-B7AD-7B04713B6739"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "parser/File/Resource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "loadText(url:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A864A69A-6FDD-4992-A7D7-38D11354A735"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "parser/File/Resource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "getAllSingleResourcesAsChapter()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D205E0A-CA8D-4B28-BEF1-11D32866710F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/SpeedReader-anmgabccpjxzjyhgffyezbeyxgov/SourcePackages/checkouts/realm-swift/RealmSwift/SwiftUI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "488"
+            endingLineNumber = "488"
+            landmarkName = "updateValue()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EC75F56C-B1A3-43CE-80FD-BBDF445F8E3E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedReader/CollectionViewer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "752E88C9-1E6C-48C9-A76A-7B3BD510311C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedReader/readingTyps/ViewBook.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "init(book:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72567FE0-0EC5-45CE-B5F7-9C42CF614A16"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedReader/readingTyps/ViewBook.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D11EE49-4885-44EB-969B-D4829D687460"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Spritz/Spritz.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "Spritz"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B6EDD6A-711C-4A7C-B335-39E8A69B7382"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "parser/EPUBBook.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "getBook()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2AA32E95-987E-4F98-B24B-6890124AD6AA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedReader/readingTyps/ViewBook.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "2AA32E95-987E-4F98-B24B-6890124AD6AA - 3f15af48eac67289"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt; in SpeedReader.ViewBook.body.getter : some"
+                  moduleName = "SpeedReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marvinraschke/Github/SpeedReader_1/SpeedReader/SpeedReader/readingTyps/ViewBook.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "2AA32E95-987E-4F98-B24B-6890124AD6AA - 3f15af48eac67289"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt; in SpeedReader.ViewBook.body.getter : some"
+                  moduleName = "SpeedReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marvinraschke/Github/SpeedReader_1/SpeedReader/SpeedReader/readingTyps/ViewBook.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ED57C3B6-4CB8-46EC-ABFF-19589EE50E7A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedReader/ChapterList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "getNextChapter()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ED57C3B6-4CB8-46EC-ABFF-19589EE50E7A - 86be0ea8b95fe32d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedReader.chapterList.getNextChapter() -&gt; Swift.String"
+                  moduleName = "SpeedReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marvinraschke/Github/SpeedReader_1/SpeedReader/SpeedReader/ChapterList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "ED57C3B6-4CB8-46EC-ABFF-19589EE50E7A - 86be0ea8b95fe32d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedReader.chapterList.getNextChapter() -&gt; Swift.String"
+                  moduleName = "SpeedReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marvinraschke/Github/SpeedReader_1/SpeedReader/SpeedReader/ChapterList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "ED57C3B6-4CB8-46EC-ABFF-19589EE50E7A - 86be0ea8b95fe664"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedReader.chapterList.getNextChapter() -&gt; Swift.String"
+                  moduleName = "SpeedReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marvinraschke/Github/SpeedReader_1/SpeedReader/SpeedReader/ChapterList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "ED57C3B6-4CB8-46EC-ABFF-19589EE50E7A - 86be0ea8b95fe645"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedReader.chapterList.getNextChapter() -&gt; Swift.String"
+                  moduleName = "SpeedReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marvinraschke/Github/SpeedReader_1/SpeedReader/SpeedReader/ChapterList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3909B20F-F026-4F55-BCB2-75F28DD4ED37"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedReader/Book.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "getNextChapter()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FF363DDD-BA94-442E-A0C8-50B3D3E55A4F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedReader/readingTyps/ViewBook.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "nextPage()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FF363DDD-BA94-442E-A0C8-50B3D3E55A4F - 43575cef891d027e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedReader.ViewBook.nextPage() -&gt; ()"
+                  moduleName = "SpeedReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marvinraschke/Github/SpeedReader_1/SpeedReader/SpeedReader/readingTyps/ViewBook.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "FF363DDD-BA94-442E-A0C8-50B3D3E55A4F - 43575cef891d027e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedReader.ViewBook.nextPage() -&gt; ()"
+                  moduleName = "SpeedReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marvinraschke/Github/SpeedReader_1/SpeedReader/SpeedReader/readingTyps/ViewBook.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "180">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
